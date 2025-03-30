@@ -1,0 +1,15 @@
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/bin/Debug/net8.0/modelDB.deps.json
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/bin/Debug/net8.0/modelDB.runtimeconfig.json
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/bin/Debug/net8.0/modelDB.dll
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/bin/Debug/net8.0/modelDB.pdb
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/modelDB.csproj.AssemblyReference.cache
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/modelDB.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/modelDB.AssemblyInfoInputs.cache
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/modelDB.AssemblyInfo.cs
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/modelDB.csproj.CoreCompileInputs.cache
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/modelDB.sourcelink.json
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/modelDB.dll
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/refint/modelDB.dll
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/modelDB.pdb
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/modelDB.genruntimeconfig.cache
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Debug/net8.0/ref/modelDB.dll
