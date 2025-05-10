@@ -1,0 +1,7 @@
+carName,year,engine,transmission,bodyStyle,price,makeName,country,foundedYear
+Corolla,2020,1.8L,Automatic,Sedan,19999,Toyota,Japan,1937
+Camry,2023,2.5L,Automatic,Sedan,25999,Toyota,USA,1903
+F-150,2022,3.3L V6,Automatic,Truck,29999,Ford,Japan,1948
+Civic,2021,2.0L,Manual,Sedan,21999,Honda,USA,1911
+Silverado,2022,5.3L V8,Automatic,Truck,35999,Chevrolet,Germany,1916
+3 Series,2023,2.0L Turbo,Automatic,Sedan,42999,BMW,Germany,1916

@@ -170,3 +170,5 @@
 /Users/emiliomontes/Desktop/projects/584-backend/CarInventory/obj/Debug/net8.0/ref/CarInventory.dll
 /Users/emiliomontes/Desktop/projects/584-backend/CarInventory/bin/Debug/net8.0/modelDB.dll
 /Users/emiliomontes/Desktop/projects/584-backend/CarInventory/bin/Debug/net8.0/modelDB.pdb
+/Users/emiliomontes/Desktop/projects/584-backend/CarInventory/bin/Debug/net8.0/CsvHelper.dll
+/Users/emiliomontes/Desktop/projects/584-backend/CarInventory/bin/Debug/net8.0/Data/CarData.csv

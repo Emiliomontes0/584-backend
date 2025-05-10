@@ -18,19 +18,18 @@ namespace CarInventory.Controllers
         }
 
         [HttpGet("makestats")]
-        public async Task<ActionResult<IEnumerable<MakeStatsDto>>> GetMakeStats()
+        public async Task<ActionResult<IEnumerable<MakeStatsDTO>>> GetMakeStats()
         {
-        return await _context.Makes
-            .Select(make => new MakeStatsDto
-            {
-                MakeName = make.Name,
-                Country = make.Country,
-                FoundedYear = make.FoundedYear.GetValueOrDefault(),
-                NumberOfModels = make.CarModels.Count,
-                AveragePrice = make.CarModels.Average(m => (decimal?)m.Price).Value
-            })
-            .ToListAsync();
-
+            return await _context.Makes
+                .Select(make => new MakeStatsDTO
+                {
+                    MakeName = make.Name,
+                    Country = make.Country,
+                    FoundedYear = make.FoundedYear ?? 0,
+                    NumberOfModels = make.CarModels.Count,
+                    AveragePrice = make.CarModels.Average(m => (decimal?)m.Price).Value
+                })
+                .ToListAsync();
         }
 
         [HttpGet("{id}")]
