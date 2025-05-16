@@ -1,7 +1,21 @@
 carName,year,engine,transmission,bodyStyle,price,makeName,country,foundedYear
-Corolla,2020,1.8L,Automatic,Sedan,19999,Toyota,Japan,1937
-Camry,2023,2.5L,Automatic,Sedan,25999,Toyota,USA,1903
-F-150,2022,3.3L V6,Automatic,Truck,29999,Ford,Japan,1948
-Civic,2021,2.0L,Manual,Sedan,21999,Honda,USA,1911
-Silverado,2022,5.3L V8,Automatic,Truck,35999,Chevrolet,Germany,1916
-3 Series,2023,2.0L Turbo,Automatic,Sedan,42999,BMW,Germany,1916
+Camry,2023,2.5L I4,Automatic,Sedan,25999,Toyota,Japan,1937
+Corolla,2022,1.8L I4,Manual,Hatchback,19999,Toyota,Japan,1937
+RAV4,2023,2.5L Hybrid,Automatic,SUV,30999,Toyota,Japan,1937
+Mustang,2023,5.0L V8,Manual,Coupe,55999,Ford,USA,1903
+F-150,2022,3.5L V6,Automatic,Truck,39999,Ford,USA,1903
+Escape,2023,2.0L I4,Automatic,SUV,28999,Ford,USA,1903
+Civic,2021,2.0L I4,Automatic,Sedan,21999,Honda,Japan,1948
+Accord,2023,2.0L Turbo,Automatic,Sedan,26999,Honda,Japan,1948
+CR-V,2023,1.5L Turbo,Automatic,SUV,31999,Honda,Japan,1948
+Model S,2022,Dual Motor,Automatic,Sedan,79999,Tesla,USA,2003
+Model X,2023,Dual Motor,Automatic,SUV,89999,Tesla,USA,2003
+Model 3,2023,Single Motor,Automatic,Sedan,39999,Tesla,USA,2003
+Altima,2022,2.5L I4,Automatic,Sedan,24999,Nissan,Japan,1933
+Rogue,2023,2.5L I4,Automatic,SUV,28999,Nissan,Japan,1933
+Sentra,2021,2.0L I4,Automatic,Sedan,19999,Nissan,Japan,1933
+CX-5,2022,2.5L I4,Automatic,SUV,30999,Mazda,Japan,1920
+Mazda3,2023,2.0L I4,Manual,Hatchback,21999,Mazda,Japan,1920
+Impreza,2023,2.0L AWD,Manual,Hatchback,22999,Subaru,Japan,1953
+Forester,2022,2.5L AWD,Automatic,SUV,31999,Subaru,Japan,1953
+Outback,2023,2.5L AWD,Automatic,Wagon,34999,Subaru,Japan,1953

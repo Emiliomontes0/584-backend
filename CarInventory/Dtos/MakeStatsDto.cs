@@ -1,8 +1,10 @@
-public class MakeStatsDTO
+namespace CarInventory.Dtos
 {
-    public string MakeName { get; set; } = null!;
-    public string Country { get; set; } = null!;
-    public int FoundedYear { get; set; }
-    public int NumberOfModels { get; set; }
-    public decimal AveragePrice { get; set; }
+    public class MakeStatsDTO
+    {
+        public string Name { get; set; }
+        public string Country { get; set; }
+        public int FoundedYear { get; set; }
+        public List<string> Models { get; set; }
+    }
 }

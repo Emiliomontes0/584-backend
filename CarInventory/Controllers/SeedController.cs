@@ -5,15 +5,38 @@ using CsvHelper.Configuration;
 using System.Globalization;
 using CarInventory.Dtos;
 using modelDB;
+using Microsoft.AspNetCore.Identity;
+using CarInventory.Models;
+using Make = modelDB.Make;
+using CarModel = modelDB.CarModel;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CarInventory.Controllers
-{
+{   
     [Route("api/[controller]")]
     [ApiController]
-    public class SeedController(SourceContext context, IHostEnvironment environment) : ControllerBase
+    public class SeedController(
+    SourceContext context, 
+    IHostEnvironment environment, 
+    UserManager<SourceContextUser> userManager) : ControllerBase
     {
         private readonly SourceContext _context = context;
         private readonly string _seedFilePath = Path.Combine(environment.ContentRootPath, "Data", "CarData.csv");
+
+        [HttpPost("Users")]
+        public async Task ImportUsersAsync()
+        {
+            SourceContextUser user = new()
+            {
+                UserName = "user",
+                Email = "user@gmail.com",
+                SecurityStamp = Guid.NewGuid().ToString()
+            };
+
+            IdentityResult x = await userManager.CreateAsync(user, "Passw0rd!");
+
+            int y = await context.SaveChangesAsync();
+        }
 
 
        [HttpPost("MakesFromCsv")]

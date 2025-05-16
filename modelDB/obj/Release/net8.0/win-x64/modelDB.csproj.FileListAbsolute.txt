@@ -1,0 +1,15 @@
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/bin/Release/net8.0/win-x64/modelDB.deps.json
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/bin/Release/net8.0/win-x64/modelDB.runtimeconfig.json
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/bin/Release/net8.0/win-x64/modelDB.dll
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/bin/Release/net8.0/win-x64/modelDB.pdb
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/modelDB.csproj.AssemblyReference.cache
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/modelDB.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/modelDB.AssemblyInfoInputs.cache
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/modelDB.AssemblyInfo.cs
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/modelDB.csproj.CoreCompileInputs.cache
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/modelDB.sourcelink.json
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/modelDB.dll
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/refint/modelDB.dll
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/modelDB.pdb
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/modelDB.genruntimeconfig.cache
+/Users/emiliomontes/Desktop/projects/584-backend/modelDB/obj/Release/net8.0/win-x64/ref/modelDB.dll

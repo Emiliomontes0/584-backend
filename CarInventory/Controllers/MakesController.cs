@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using modelDB;
 using CarInventory.Dtos;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CarInventory.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class MakesController(SourceContext context) : ControllerBase
@@ -23,14 +25,14 @@ namespace CarInventory.Controllers
             return await _context.Makes
                 .Select(make => new MakeStatsDTO
                 {
-                    MakeName = make.Name,
+                    Name = make.Name,
                     Country = make.Country,
                     FoundedYear = make.FoundedYear ?? 0,
-                    NumberOfModels = make.CarModels.Count,
-                    AveragePrice = make.CarModels.Average(m => (decimal?)m.Price).Value
+                    Models = make.CarModels.Select(m => m.Name).ToList(),
                 })
                 .ToListAsync();
         }
+
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Make>> GetMake(int id)
